@@ -1,0 +1,21 @@
+{
+  "name": "write",
+  "description": "collaborative write code and build presentation",
+  "main": "index.js",
+  "authors": [
+    "lorenzo <lorenzormgnl@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.9"
+  }
+}
