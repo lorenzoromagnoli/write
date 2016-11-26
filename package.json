@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bower": "^1.8.0",
+    "browserchannel": "^2.0.0",
     "ejs": "^2.5.2",
     "electron": "^1.4.8",
     "express": "^4.12.4",
