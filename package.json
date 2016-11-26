@@ -4,17 +4,16 @@
   "description": "collaborative write code and build presentation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bower": "^1.8.0",
     "electron": "^1.4.8",
     "express": "^4.12.4",
     "redis": "^0.10.3",
-    "share": "^0.6.3",
-    "bower": "0.6.x"
+    "share": "^0.6.3"
   },
   "devDependencies": {
     "electron": "^1.4.8"
@@ -22,8 +21,5 @@
   "engines": {
     "node": "0.10.x",
     "npm": "1.3.x"
-  },
-  "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install"
   }
 }
