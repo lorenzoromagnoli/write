@@ -1,6 +1,9 @@
 write.controller('mainCtrl', ['$rootScope', '$scope',
   function($rootScope, $scope) {
-    $scope.title="newFile";
+
+    $scope.doc={}
+    $scope.doc.title="newFile";
+    $scope.doc.sourceCode="you are ready to start typing";
 
   }
 ]);

@@ -1,5 +1,7 @@
 var write = angular.module('write', [
-									'ngAnimate'
+									'ngAnimate',
+                  'btford.markdown'
+
 									]);
 
 

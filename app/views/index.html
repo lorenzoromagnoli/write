@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="write">
+
+<head>
+    <title>Write</title>
+
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link rel="stylesheet" type="text/css" href="../bower_components/angular-material/angular-material.css">
+
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../app/styles/style.css">
+
+</head>
+
+<body >
+
+
+  <div  ng-include src="'../app/views/main.html'" class= "full-height"></div>
+
+
+  <!--load js library angular-->
+
+  <!--load main angular-->
+  <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+
+  <script type="text/javascript" src="../bower_components/angular-aria/angular-aria.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-animate/angular-animate.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-material/angular-material.js"></script>
+
+
+  <!--load main-->
+  <script type="text/javascript" src="../app/js/app.js"></script>
+
+  <!--load modules-->
+  <script type="text/javascript" src="../bower_components/showdown/compressed/Showdown.min.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-markdown-directive/markdown.js"></script>
+
+
+  <!--load controllers-->
+  <script type="text/javascript" src="../app/views/main.ctrl.js"></script>
+  <script type="text/javascript" src="../app/views/source/source.ctrl.js"></script>
+
+</body>
+</html>
