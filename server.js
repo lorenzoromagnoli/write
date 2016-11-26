@@ -8,8 +8,13 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
 
+app.use('/bower_components',  express.static(__dirname + '/bower_components'));
+app.use('/node_modules',  express.static(__dirname + '/node_modules'));
+
 // public folder to store assets
 app.use(express.static(__dirname + '/'));
+
+
 
 // routes for app
 app.get('/', function(req, res) {
