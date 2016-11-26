@@ -1,0 +1,9 @@
+<div id="editor" class="container full-height" ng-controller="editorCtrl">
+  <h1>{{doc.title}}</h1>
+
+  <section class="row full-height">
+
+    <ng-include src="'../app/views/source/source.html'" class="full-height"></ng-include>
+    <ng-include src="'../app/views/preview/preview.html'" class="full-height"></ng-include>
+  </section>
+</div>
