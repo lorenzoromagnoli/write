@@ -13,11 +13,10 @@
 
 </head>
 
-<body >
+<body ng-controller="appCtrl">
 
-  <div  ng-include src="'../views/home.html'" class= "full-height"></div>
-
-  <div  ng-include src="'../views/editor.html'" class= "full-height"></div>
+  <div  ng-include src="'../views/home.html'" class="full-height" ></div>
+  <div  ng-include src="'../views/editor.html'" class="full-height" ></div>
 
 
 
@@ -45,6 +44,7 @@
 
 
   <!--load controllers-->
+  <script type="text/javascript" src="../views/app.ctrl.js"></script>
   <script type="text/javascript" src="../views/editor.ctrl.js"></script>
   <script type="text/javascript" src="../views/source/source.ctrl.js"></script>
 

@@ -2,6 +2,10 @@ html, body, section, .full-height {
     height: 100%;
 }
 
+body, h1, h2, h3{
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
 #pad{
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 
@@ -18,4 +22,30 @@ html, body, section, .full-height {
 #markdown {
     overflow: auto;
     border-left: 1px solid black;
+}
+
+.hero{
+  text-align: center;
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+form.newDoc{
+  margin-top: 10em;
+  text-align: center;
+}
+
+form input{
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+    outline-offset: 0px;
+    outline: none;
+}
+
+form.newDoc input{
+font-size: 3em;
 }
