@@ -1,3 +1,14 @@
 <div id="editor" class="container full-height">
-  <h1>just write</h1>
+    <div class="row hero">
+        <h1 class="title">just write</h1>
+        <h4 class="subtitle">Just simply write together</h4>
+
+        <form class="newDoc">
+            <p class="instructions">create a new doc or re-open something</p>
+            <input type="fileName" ng-model="newFileName"></input>
+            <button class="button" ng-click="changeLocation(newFileName)">go</button>
+        </form>
+
+
+    </div>
 </div>
