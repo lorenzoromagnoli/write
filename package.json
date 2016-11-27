@@ -2,6 +2,10 @@
   "name": "write",
   "version": "1.0.0",
   "description": "collaborative write code and build presentation",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/lorenzoromagnoli/write"
+  },
   "main": "index.js",
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install"
@@ -10,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "bower": "^1.8.0",
+    "browserchannel":"^1.2.0",
     "ejs": "^2.5.2",
     "electron": "^1.4.8",
     "express": "^4.12.4",
