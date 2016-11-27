@@ -13,8 +13,7 @@
     "ejs": "^2.5.2",
     "electron": "^1.4.8",
     "express": "^4.12.4",
-    "redis": "^0.10.3",
-    "share": "^0.6.3"
+    "redis": "^0.10.3"
   },
   "devDependencies": {
     "electron": "^1.4.8"
