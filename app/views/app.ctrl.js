@@ -10,16 +10,15 @@ write.controller('appCtrl', ['$rootScope', '$scope', '$location',
       $scope.openFile(url);
     }
 
-    // $scope.openFile=function(fileName){
-    //   $scope.isDocOpen=true;
-    //
-    //   sharejs.open(fileName, 'text', function(error, doc) {
-    //     console.log(fileName);
-    //      doc.attach_textarea(pad);
-    //      console.log(error);
-    //   });
-    //
-    // }
+
+    $scope.openFile=function(fileName){
+      $scope.isDocOpen=true;
+
+      sharejs.open(fileName, 'text', function(error, doc) {
+         doc.attach_textarea(pad);
+      });
+
+    }
 
 
 

@@ -15,8 +15,8 @@
 
 <body ng-controller="appCtrl">
 
-  <div  ng-include src="'../views/home.html'" class="full-height" ></div>
-  <div  ng-include src="'../views/editor.html'" class="full-height" ></div>
+  <div  ng-include src="'../views/home.html'" class="full-height" ng-hide="isDocOpen"></div>
+  <div  ng-include src="'../views/editor.html'" class="full-height" ng-show="isDocOpen"></div>
 
 
 

@@ -5,10 +5,5 @@ write.controller('editorCtrl', ['$rootScope', '$scope',
     $scope.doc.title="newFile";
     $scope.doc.sourceCode=". . . ";
 
-
-    sharejs.open('home', 'text', function(error, doc) {
-       doc.attach_textarea(pad);
-   });
-
   }
 ]);
